@@ -1,4 +1,4 @@
-Before you begin any problem, make sure you have the following gems installed
+Before you begin any problem, make sure you have the following gems installed buy running:
 
 ```
 gem install rake
@@ -25,7 +25,7 @@ In order to do any of these challenges do either of the following:
 
 ## 1. Method One
 
-Fork the repo, clone it to your desktop, do a problem and submit it by pushing your solution to your forked repository and then doing a pull request. DO NOT MERGE OR I WILL DO MEAN THINGS TO YOU.
+Fork the repo, clone it to your desktop, do a problem and submit it by pushing your solution to your forked repository and then doing a pull request.
 
 ## 2. Method Two 
 
@@ -41,5 +41,11 @@ so an example is something like:
 git checkout -b kennethuy-rpn
 ```
 
+Each directory has a file in the root directory where you should write your solution. 
+
 By doing it on Github in this manner, solutions will be visible and a conversation about various solutions can be done in realtime.
+
+Thanks for checking these out by the way. Any actionable, specific, kind feedback is appreciated.
+
+[You is like Japanese Idols? Me too.](http://missingno15.com/404)
 
