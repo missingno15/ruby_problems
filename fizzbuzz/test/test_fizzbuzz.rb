@@ -1,7 +1,7 @@
 require 'minitest/autorun'
 require 'minitest/reporters'
 require 'shoulda/context'
-require_relative '../program'
+require_relative '../fizzbuzz'
 
 Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new
 
