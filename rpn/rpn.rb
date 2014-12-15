@@ -23,7 +23,7 @@
 # interested, do some research about it and how to use them.
 # One website that is extremely helpful in helping you form
 # a Regular Expresssion to use is www.rubular.com
-# Regular Expressionは日本語で「正規表現」と呼ばれているそうなので
+# Regular Expressionは日本語で「正規表現」と呼ばれているみたいなので
 # グーグルで正規表現とは何か、どう使うのかを検索しても
 # 構いません。
 # 
