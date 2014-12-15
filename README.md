@@ -1,6 +1,6 @@
 Before you begin any problem, make sure you have the following gems installed
 
-```ruby
+```
 gem install rake
 gem install minitest
 gem install shoulda-context
@@ -11,11 +11,11 @@ These gems are needed to run the tests on your program.
 
 In order to run the tests to check if your code satisfies the requirements, go to the root directory of the current problem and type:
 
-```shell
+```
 rake
 ```
 or
-```shell
+```
 rake test
 ```
 
@@ -31,13 +31,13 @@ Fork the repo, clone it to your desktop, do a problem and submit it by pushing y
 
 If I allow you to, clone this repository, make a branch of master by doing someting like:
 
-```shell
+```
 git checkout -b <YOUR_NAME>-<NAME_OF_PROBLEM>
 ```
 
 so an example is something like:
 
-```shell
+```
 git checkout -b kennethuy-rpn
 ```
 
