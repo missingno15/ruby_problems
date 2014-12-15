@@ -1,11 +1,3 @@
-# Before you begin, make sure you have the following gems installed
-#   = gem install rake
-#   = gem install minitest
-#   = gem install shoulda-context
-#   = gem install minitest-reporters
-# 
-# These gems are needed to run the tests on your program.
-
 # Create a FizzBuzz class that:
 #   -  has a private method called multiple_of_three?. the method should:
 #      - take a single argument
