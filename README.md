@@ -25,11 +25,32 @@ In order to do any of these challenges do either of the following:
 
 ## 1. Method One
 
-Fork the repo, clone it to your desktop, do a problem and submit it by pushing your solution to your forked repository and then doing a pull request.
+Fork the repo, 
+
+```
+*Forks repo
+```
+
+clone the repo, 
+
+```
+git clone https://github.com/missingno15/ruby_problems.git
+```
+
+
+do a problem and submit it by pushing your solution to your forked repository and then doing a pull request.
 
 ## 2. Method Two 
 
-If I allow you to, clone this repository, make a branch of master by doing someting like:
+If I allow you access to this repository... 
+
+Clone this repository, 
+
+```
+git clone https://github.com/missingno15/ruby_problems.git
+```
+
+Then make a branch of master by doing someting like:
 
 ```
 git checkout -b <YOUR_NAME>-<NAME_OF_PROBLEM>
