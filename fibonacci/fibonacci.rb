@@ -23,9 +23,10 @@
 class Fibonacci
   def is_fibonacci? (check_number)
 	fibonacci_seq = [0,1]
-        fibonacci_seq << fibonacci_seq.inject{|sum,n|
-	  		sum+n
+        fibonacci_seq.inject{|sum,n|
+	  	sum + n
 	}
+	puts fibonacci_seq 
 	fibonacci_seq.include? check_number
       
   end  
