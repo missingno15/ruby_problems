@@ -19,3 +19,22 @@
 # start looking up the documentation in the following link:
 # 
 # http://ruby-doc.org/core-2.1.5/doc/syntax/methods_rdoc.html
+
+class Fibonacci
+  def is_fibonacci? (n)
+	  n == 0 ? fib_number = 0  
+	  n == 1 ? fib_number = 1
+	if n > 1 
+         fib_sequence.each {|n|		
+	 fib_sequence = [ ] << fib_number = fib[n-1] + fib[n-2]
+         }
+	end
+  end
+end
+
+
+ 
+test = Fibonacci.new
+test.is_fibonacci?(5)
+
+
