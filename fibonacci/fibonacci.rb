@@ -21,20 +21,28 @@
 # http://ruby-doc.org/core-2.1.5/doc/syntax/methods_rdoc.html
 
 class Fibonacci
-  def is_fibonacci? (n)
-	  n == 0 ? fib_number = 0  
-	  n == 1 ? fib_number = 1
-	if n > 1 
-         fib_sequence.each {|n|		
-	 fib_sequence = [ ] << fib_number = fib[n-1] + fib[n-2]
+  def is_fibonacci? (check_number)
+
+      def getting_fibonacci(n)
+
+  	fibonacci_seq = Array.new(n+1)
+	n == 0 ? fib_number = 0  
+	n == 1 ? fib_number = 1
+	while n > 1 
+         fibonacci_seq.each {|n|		
+	    fibonacci_number = fibonacci_number[n-1] + fibonacci_number[n-2]
          }
 	end
-  end
+	
+	fibonacci_seq.include? check_number
+      end
+    
 end
 
 
  
 test = Fibonacci.new
 test.is_fibonacci?(5)
+
 
 
