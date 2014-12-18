@@ -23,12 +23,15 @@
 class Fibonacci
   def is_fibonacci? (check_number)
 	fibonacci_seq = [0,1]
-        fibonacci_seq.inject{|sum,n|
+	while check_number > fibonacci_seq.last
+        fib_num = fibonacci_seq.inject{|sum,n|
 	  	sum + n
 	}
+	fibonacci_seq.push fib_num
+	print fib_num
 	puts fibonacci_seq 
+	end
 	fibonacci_seq.include? check_number
-      
   end  
 end
 
