@@ -22,21 +22,13 @@
 
 class Fibonacci
   def is_fibonacci? (check_number)
-
-      def getting_fibonacci(n)
-
-  	fibonacci_seq = Array.new(n+1)
-	n == 0 ? fib_number = 0  
-	n == 1 ? fib_number = 1
-	while n > 1 
-         fibonacci_seq.each {|n|		
-	    fibonacci_number = fibonacci_number[n-1] + fibonacci_number[n-2]
-         }
-	end
-	
+	fibonacci_seq = [0,1]
+        fibonacci_seq << fibonacci_seq.inject{|sum,n|
+	  		sum+n
+	}
 	fibonacci_seq.include? check_number
-      end
-    
+      
+  end  
 end
 
 
