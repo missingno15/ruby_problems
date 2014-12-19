@@ -29,14 +29,15 @@
 #     # http://ruby.bastardsbook.com/chapters/enumerables/
 #     n.times.inject([0,1]) { |rv, e| rv << rv[-2] + rv[-1] }.include?(n)
 #   end
-# endrequire 'pry'
+# end
+#
+# require 'pry'
 
 # Second iteration of inject solution:
 class Fibonacci
   def is_fibonacci?(n)
     return true if n == 0
     n.times.inject([0,1]) do |rv, e| 
-      binding.pry
       return true if rv.include?(n)
       break if rv.last > n
       rv << rv[-2] + rv[-1] 
