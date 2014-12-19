@@ -22,18 +22,16 @@
 
 class Fibonacci
   def is_fibonacci? (check_number)
-	fibonacci_seq = [0,1]
+    fibonacci_seq = [0,1]
 
-	while check_number > fibonacci_seq.last
-           fib_num = fibonacci_seq.last(2).inject{|fb1,fb2|
-	           fb1 + fb2
-	}
-        p fib_num
-	fibonacci_seq.push fib_num
-	puts fibonacci_seq 
-	end
+    while check_number > fibonacci_seq.last
+      fib_num = fibonacci_seq.last(2).inject{|fb1,fb2|
+        fb1 + fb2
+      }
+      fibonacci_seq.push fib_num
+    end
 
-	fibonacci_seq.include? check_number
+    fibonacci_seq.include? check_number
   end  
 end
 
