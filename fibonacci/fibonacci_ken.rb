@@ -1,3 +1,4 @@
+# Original solution
 # class Fibonacci
 #   def is_fibonacci?(n)
 #     fib_ary = [0,1]
@@ -21,7 +22,7 @@
 #rv means return value
 # http://ruby.bastardsbook.com/chapters/enumerables/
 
-# First iteration:
+# First iteration of inject solution:
 # # class Fibonacci
 #   def is_fibonacci?(n)
 #     #rv means return value
@@ -30,7 +31,7 @@
 #   end
 # endrequire 'pry'
 
-# Second iteration:
+# Second iteration of inject solution:
 class Fibonacci
   def is_fibonacci?(n)
     return true if n == 0
