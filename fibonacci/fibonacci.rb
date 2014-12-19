@@ -28,7 +28,7 @@ class Fibonacci
       fib_num = fibonacci_seq.last(2).inject{|fb1,fb2|
         fb1 + fb2
       }
-      fibonacci_seq.push fib_num
+      fibonacci_seq << fib_num
     end
 
     fibonacci_seq.include? check_number
