@@ -22,18 +22,14 @@
 
 class Fibonacci
   def is_fibonacci? (check_number)
-	fibonacci_seq = [0,1]
-
-	while check_number > fibonacci_seq.last
-           fib_num = fibonacci_seq[-1] + fibonacci_seq[-2]
-	   fibonacci_seq.push fib_num
-	end
-
-	fibonacci_seq.include? check_number
+    fibonacci_seq = [0,1]
+    while check_number > fibonacci_seq.last
+      fib_num = fibonacci_seq[-1] + fibonacci_seq[-2]
+      fibonacci_seq.push fib_num
+    end
+    fibonacci_seq.include? check_number
   end  
 end
-
-
  
 test = Fibonacci.new
 test.is_fibonacci?(5)
