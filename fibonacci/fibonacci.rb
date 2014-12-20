@@ -25,12 +25,8 @@ class Fibonacci
 	fibonacci_seq = [0,1]
 
 	while check_number > fibonacci_seq.last
-           fib_num = fibonacci_seq.last(2).inject{|fb1,fb2|
-	           fb1 + fb2
-	}
-        p fib_num
-	fibonacci_seq.push fib_num
-	puts fibonacci_seq 
+           fib_num = fibonacci_seq[-1] + fibonacci_seq[-2]
+	   fibonacci_seq.push fib_num
 	end
 
 	fibonacci_seq.include? check_number
